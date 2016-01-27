@@ -1,0 +1,8 @@
+What happens when you initialize a repository?  Why do you need to do it?
+
+Git creates an empty hidden folder to save commit data.  If you dont do this, you wont be able to commit.
+
+How is the staging area different from the working directory and the repository?  What value do you think it offers?
+
+It is a temporary place to park files that you wish to commit from the working directory to the repository.  It adds value by letting you only commit changes to the files that you choose.
+
