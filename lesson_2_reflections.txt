@@ -6,3 +6,24 @@ How is the staging area different from the working directory and the repository?
 
 It is a temporary place to park files that you wish to commit from the working directory to the repository.  It adds value by letting you only commit changes to the files that you choose.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can run 'git diff' to check out what you are specifically changing, and make sure it is what you want.
+
+What are some situations when branches would be helpful in keeping your history organized?  How would branches help?
+
+When you want to make a series of changes or try a different method of doing something but want to keep a working program from before you started making large changes.  Branches lets you go down simultaneous paths.
+
+How do the diagrams help you visualize the branch structure?
+
+They help see the parent-child relationships, and the separation of the branches.
+
+What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
+
+Two branches become one, with all changes from each branch being combined.  We represent it that way because all commits from each branch are parents of the newly merged branch.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Pros - Quick and automatic, removes human error and time
+Cons - You may not be fully aware of the changes someone else may have made.
+
